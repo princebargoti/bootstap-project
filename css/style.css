@@ -1,0 +1,847 @@
+body{
+  font-family: monospace;
+}
+
+
+/* /nav bar/ */
+.weblogo{
+    width: 65px;
+  }
+  .navbar{
+    background-color:#000000c2;
+  }
+  .navbar-nav li
+      {
+       padding: 0 10px;
+       }
+     .navbar-nav li a
+    {
+      color: #fff;
+      font-weight: 600;
+      font-size: 20px;
+     }
+
+.c{
+    text-align: center;
+   }
+   .moblogo{
+    display: none;
+   }
+   @media(max-width: 700px){
+
+    .moblogo{
+       display: block;
+     }
+     .weblogo{
+      display: none;
+     }
+     .navbar{
+      background: #fcb01b;
+     }
+    }
+/* section1 start     */
+/* section1 */
+.section1{
+  position: relative;
+}
+.section1 .b{
+  display: none;
+
+}
+@media(max-width:760px){
+  .section1 .a{
+      display: none;
+  }
+  .section1 .b{
+      display: block;
+  }
+}
+
+.section1 img{
+  width: 100%;   
+  
+}
+.section1 .row .col-10{
+  position: absolute;
+  color: #fff;    
+  top: 45%;
+  letter-spacing: 4px; 
+}
+.section1 .row .col-10 h1{
+  font-size: 70px;
+}
+
+@media(max-width:760px){
+  .section1 .row .col-10{
+      text-align: center;
+    
+  }
+
+  .section1 .row .col-10 h1{
+      
+      font-size: 40px;
+  }
+}
+/* section2 */
+.section2 .container .col-md-12 .heading{
+  font-family: 'prague';
+  word-spacing: 3px;
+}
+.section2 .container .row .col-md-7 .para{
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-align: justify;
+  line-height: 25px;
+  font-size: 18px;
+}
+/* section3 */
+.section3{
+  width: 100%;
+  height: 450px;
+  background-image: url(	https://www.firstfiddle.in/assets/images/gamebanner.jpg);
+}
+
+.section3 .row .col-md-8{
+ padding-top: 55px;
+ letter-spacing: 1px;
+ line-height: 37px;
+ font-family: monospace;
+}
+
+@media(max-width:391px){
+  .section3{
+      height: 550px;
+  }
+}
+
+@media(max-width:313px){
+  .section3{
+      height: 600px;
+  }
+}
+
+@media(max-width:285px){
+  .section3{
+      height: 750px;
+  }
+}
+
+@media(max-width:226px){
+  .section3{
+      height: 1000px;
+  }
+}
+/*section 4*/
+
+.section4 .row .col-8 p{
+   
+  line-height: 35px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-align: justify;
+  
+ 
+}
+
+@media(max-width:1200px){
+  .section4 .row .col-4 img{
+      width: 90%;
+  }
+ 
+}
+
+@media(max-width:1000px){
+  .section4 .row .col-4{
+      width: 150%;
+  }
+  .section4 .row .col-8{
+      width: 100%;
+  }
+  .section4 .row .col-4 img{
+      width: 100%;
+  }
+  .section4 .row .col-8 p{
+ 
+      line-height: 35px;
+      letter-spacing: 1px;
+      word-spacing: 2px;
+      text-align: justify;
+      
+     
+  }
+}
+
+/*section 5*/
+
+.section5 .row .col-md-8 p{
+ 
+  line-height: 35px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-align: justify;
+  
+ 
+}
+@media(max-width:760pc){
+  .section5 .row .col-md-4 img{
+      width: 100%;
+
+}
+}
+
+/* brand page start */
+
+/* section6 */
+.section6{
+  position: relative;
+}
+.section6 .b{
+  display: none;
+
+}
+@media(max-width:760px){
+  .section6 .a{
+      display: none;
+  }
+  .section6 .b{
+      display: block;
+  }
+}
+
+.section6 img{
+  width: 100%;   
+  
+}
+.section6 .row .col-10{
+  position: absolute;
+  color: #fff;    
+  top: 45%;
+  letter-spacing: 4px; 
+}
+.section6 .row .col-10 h1{
+  font-size: 70px;
+}
+
+@media(max-width:760px){
+  .section6 .row .col-10{
+      text-align: center;
+    
+  }
+
+  .section6 .row .col-10 h1{
+      
+      font-size: 40px;
+  }
+}
+/* sectin7 */
+.section7 .row{
+  padding-right: 70px;
+  padding-left: 70px;
+}
+.section7 .row .col-md-4 a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+.section7 .row .col-md-4 a img{
+  margin-top: 10px;
+  padding: 5%;
+  vertical-align: middle;
+  border-style: none;
+}
+/* footer */
+
+footer {
+  height: 560px;
+  background-color: #111215;
+}
+
+footer .row  span{
+  color: #fbac29;
+}
+
+footer .row a i{
+  color:#fbac29;
+  font-size: 35px;
+  margin-right: 10px;    
+}
+
+@media(max-width:770px){
+  footer .row img{
+      width: 30%;
+  }
+  footer{
+      height: 920px;
+  }
+}
+
+@media(max-width:534px){
+  footer{
+      height: 1000px;
+  }
+}
+
+
+@media(max-width:448px){
+  footer{
+      height: 1100px;
+  }
+}
+
+@media(max-width:390px){
+  footer{
+      height: 1200px;
+  }
+}
+
+@media(max-width:360px){
+  footer{
+      height: 1350px;
+  }
+}
+
+@media(max-width:300px){
+  footer{
+      height: 1520px;
+  }
+}
+
+@media(max-width:258px){
+  footer{
+      height: 1670px;
+  }
+}
+@media(max-width:233px){
+  footer{
+      height: 1790px;
+  }
+}
+ 
+/* home page start  */
+
+/* section8 */
+
+.section8 img{
+  width: 100%;
+}
+
+
+
+/*section 9 */
+
+.section9 .a{
+  text-align: center;
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-family: 'prague';
+  letter-spacing: 3px;
+  
+}
+
+.section9 .b{
+  text-align: justify;
+  line-height: 35px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  padding-right: 5px;
+}
+
+.section9 .img{
+  width: 80%;
+}
+
+@media (max-width :768px){
+  .section9 .img{
+      width: 100%;
+  }
+}
+
+
+/* section 10 */
+.section10 .bimg{
+  background-image: url(  https://www.firstfiddle.in/assets/images/bannerabout.jpg);
+  background-position: center;
+  height: 480px;
+}
+
+@media(max-width:488px){
+  .section10 .bimg{
+      height: 500px;
+  }
+  
+}
+@media(max-width:400px){
+  .section10 .bimg{
+      height: 500px;
+  }
+}
+
+
+@media(max-width:317px){
+  .section10 .bimg{
+      height: 700px;
+  }
+}
+
+
+@media(max-width:230px){
+  .section10 .bimg{
+      height: 800px;
+  }
+
+}
+@media(max-width:206px){
+  .section10 .bimg{
+      height: 900px;
+  }
+  .section10 .bimg .set button{
+      height: 50px;
+      width: 100px;
+      font-size: 13px;
+  }
+}
+@media(max-width:180px){
+  .section10 .bimg{
+      height: 1000px;
+  }
+
+}
+@media(max-width:170px){
+  .section10 .bimg{
+      height: 1100px;
+  }
+
+}
+
+.section10 .set{
+  padding-top: 60px;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  line-height: 38px;
+
+}
+
+@media(max-width:780px){
+  .section10 .bimg .row .col-2 {
+      width: 0px;
+  }
+  .section10 .bimg .row .col-8{
+      width: 100%;
+  }
+  
+}
+
+@media(max-width:780px){
+  .section10 .bimg .set h1{
+      margin-top: 10px;
+      text-align: center;
+  }
+}
+
+
+
+
+.section10 .mt-20{
+ margin-top: 102px;
+ color: #fbac29;
+}
+.section10 .bimg button{
+  background-color: #fbac29;
+  border: none;
+  height: 43px;
+  width: 183px;
+  color: aliceblue;
+}
+
+
+/*section11*/
+
+.section11 h1 span{
+  color: #fbac29;
+}
+
+.section11 .image{
+  width: 80%;
+}
+
+.section11 .row img{
+  width: 100%;
+  
+}
+
+
+
+
+/*/section 12/*/
+
+.section12{
+  width: 100%;
+  height: 500px; 
+  background-image: url(  https://www.firstfiddle.in/assets/images/outletbanner.png);
+}
+
+.section12 .col-8 h1{
+  font-size: 42px;
+  letter-spacing: 2px;
+  
+}
+.section12 .col-8 p{
+  letter-spacing: 2px;
+  font-size: medium;
+  line-height: 40px;
+}
+
+.section12 .col-8 button{
+  background-color: #fbac29;
+  width: 150px;
+  height: 44px;
+  border: none;
+  color: aliceblue;
+}
+
+@media(max-width:980px){
+  .section12 .row .col-2{
+      width: 0px;
+  }
+
+  .section12 .row .col-8{
+      width: 100%;
+  }
+}
+
+@media(max-width:525px){
+  .section12{
+      height: 600px;
+  }
+}
+@media(max-width:380px){
+  .section12{
+      height: 700px;
+  }
+}
+@media(max-width:325px){
+  .section12{
+      height: 900px;
+  }
+}
+@media(max-width:225px){
+  .section12{
+      height: 1200px;
+  }
+}
+
+/* our team css page start*/
+
+.section14{
+  position: relative;
+}
+
+.section14 img{
+  width: 100%;
+}
+.section14 .b{
+  display: none;
+}
+
+
+
+@media(max-width:730px){
+  .section14 .a {
+      display: none;
+  }
+  .section14 .b{
+      display: block;
+  }
+  .section14 img{
+      width: 100%;
+  }  
+
+  
+
+}
+
+.section14 .text{
+  position: absolute;
+  top: 35%;
+  text-align: center;
+     width: 100%;
+
+}
+
+.section14 .text h1{
+  font-size: 100px;
+  color: #fff;
+}
+
+@media(max-width:760px){
+  .section14 .text h1{
+      font-size: 40px;
+  }
+  
+}
+
+/*section 15 */
+.section15{
+  margin: 80px 20px;
+}
+
+.section15 .row .img{
+  width: 100%;
+}
+
+.section15 .row .mt-1 p{
+  text-align: justify;
+}
+
+.section15 .row .col-md-8 button{
+  background-color: #fbac29;
+  color: #fff;
+  margin: 5px 0px;
+  height: 40px;
+  width: 150px;
+  border: none;
+}
+
+.section15 .row .col-md-8 a{
+  color: #fbac29;
+  font-size: 40px;
+}
+
+/* /section 16/  */
+.section16{
+  margin: 0px 20px;
+}
+
+
+
+.section16 .mb-2 .row img{
+  width: 95%;
+}
+
+/* press css page start  */
+
+/*section 17 */
+.section17{
+  position: relative;
+}
+
+.section17 img{
+  width: 100%;
+}
+.section17 .b{
+  display: none;
+}
+
+
+
+@media(max-width:730px){
+  .section17 .a {
+      display: none;
+  }
+  .section17 .b{
+      display: block;
+  }
+  .section17 img{
+      width: 100%;
+  }  
+
+  
+
+}
+
+.section17 .text{
+  position: absolute;
+  top: 35%;
+  text-align: center;
+     width: 100%;
+
+}
+
+.section17 .text h1{
+  font-size: 100px;
+  color: #fff;
+}
+
+@media(max-width:760px){
+  .section17 .text h1{
+      font-size: 40px;
+  }
+  
+}
+
+/* /section 18/ */
+.section18 .row .col-6 .row img{
+  width: 10%;
+  margin-bottom: -16px;
+  
+}
+
+/* /section 19/ */
+
+.section19 .row .col-md-3 img{
+  width: 90%;
+}
+
+
+/* /section 20 / */
+/* contact page css start */
+/* contact page css start */
+
+.section21{
+  position: relative;
+}
+
+.section21 img{
+  width: 100%;
+}
+.section21 .b{
+  display: none;
+}
+
+
+
+@media(max-width:730px){
+  .section21 .a {
+      display: none;
+  }
+  .section21 .b{
+      display: block;
+  }
+  .section21 img{
+      width: 100%;
+  }  
+
+  
+
+}
+
+.section21 .text{
+  position: absolute;
+  top: 35%;
+  text-align: center;
+     width: 100%;
+
+}
+
+.section21 .text h1{
+  font-size: 100px;
+  color: #fff;
+}
+
+@media(max-width:760px){
+  .section21 .text h1{
+      font-size: 40px;
+  }
+  
+}
+
+/* /section 22/ */
+.section22 button{
+  background-color: #fbac29;
+  border: none;
+  height: 50px;
+  width: 100px;
+  border-radius: 6px;
+}
+
+.section22 span{
+  color: #fbac29;
+}
+
+@media (max-width:760px){
+  .section22 .col-md-6{
+      width: 100%;
+  }
+}
+
+/*carress css start*/
+.section23{
+    position: relative;
+}
+
+.section23 img {
+    width: 100%;
+}
+.section23 .b{
+    display: none;
+}
+
+
+
+@media(max-width:730px){
+    .section23 .a {
+        display: none;
+    }
+    .section23 .b{
+        display: block;
+    }
+    .section23 img{
+        width: 100%;
+    }  
+
+    
+
+}
+
+.section23 .text{
+    position: absolute;
+    top: 35%;
+    text-align: center;
+       width: 100%;
+
+}
+
+.section23 .text h1{
+    font-size: 100px;
+    color: #fff;
+}
+
+@media(max-width:760px){
+    .section23 .text h1{
+        font-size: 40px;
+    }
+    
+}
+
+
+/*section 24  */
+.section24 .why{
+    background-image: url(https://www.firstfiddle.in/assets/images/new-about-us-1.jpg);
+    background-size: cover;
+    height: 700px;
+}
+
+
+.section24 .heading{
+    font-weight:bold;
+    font-family: 'prague'; 
+    margin-top: 40px;
+/*        font-size: 40px;*/
+    text-align: center;
+}
+
+.section24 .p1{
+    color: #00000085; 
+    font-size: 19px;
+/*        font-family: 'prague';*/
+/*        letter-spacing: 2px;*/
+}
+
+
+.section24 .form{
+    padding: 0px 40px; 
+    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%),            0 6px 20px 0 rgb(0 0 0 / 19%) !important; 
+    height: 650px; 
+    width: 43%; 
+    border-radius: 10px;
+}
+
+
+@media(max-width:750px){
+    .section24 .form{
+        width: 95%;
+        margin: 12px;
+     }
+}
+
+
